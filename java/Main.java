@@ -7,6 +7,7 @@ public class Main{
     meuFilme.nome = "Top Gun";
     meuFilme.anoDeLancamento = 1986;
 
-    meuFilme.exibeFichaTecnica();
+    System.out.println(meuFilme.nome);
+    System.out.println(meuFilme.anoDeLancamento);
   }
 }
